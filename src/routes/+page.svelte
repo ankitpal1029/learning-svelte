@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+console.log("This is in js")
+</script>
+<h1 class="new-header">This is the home page</h1>
+
+<style>
+    .new-header{
+        color: green
+    }
+</style>
+
